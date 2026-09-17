@@ -8,13 +8,18 @@ scoped contribution to this single problem, not a claim of full closure of
 the September 2026 paper or a claim for the mathematical solving share.
 
 Pinned proof and all source-package records:
-[0a6b827e15bdb51aab6fa45b13d065013bcbfdd6](https://github.com/Allen20202020/erdos-767-sharpness/tree/0a6b827e15bdb51aab6fa45b13d065013bcbfdd6).
+[1977a9e24718e7b1a703d069b47a0468e9c77be3](https://github.com/Allen20202020/erdos-767-sharpness/tree/1977a9e24718e7b1a703d069b47a0468e9c77be3).
 
 Proof workflow:
-[run 35195410478](https://github.com/Allen20202020/erdos-767-sharpness/actions/runs/35195410478).
-Check the actual run conclusion and step logs. No success is asserted here
-in advance of its completion. Local verification is recorded in
-[summary.json](verification/summary.json).
+[run 35196520124](https://github.com/Allen20202020/erdos-767-sharpness/actions/runs/35196520124).
+This run completed successfully on 17 September 2026 at the pinned source
+commit, including the namespace-wide axiom audit, official-kernel check,
+independent NaNoda check and expanded-statement audit. The namespace audit
+covered 53 declarations. Check the actual run conclusion and step logs.
+Local Lean verification is recorded in
+[summary.json](verification/summary.json). The independent NaNoda check
+passed for 8,514 declarations with only the three standard axioms permitted;
+see [independent.json](verification/independent.json) and its reproducible script.
 
 The submitting account has a direct interest in recognition. Codex assistance
 and derived Apache-2.0 proof code are disclosed in [PRIOR_ART.md](PRIOR_ART.md)
